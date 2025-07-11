@@ -1,0 +1,17 @@
+[project]
+name = "advance-deepresearch-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "firecrawl-py>=2.15.0",
+    "langchain>=0.3.26",
+    "langchain-google-genai>=2.1.6",
+    "langgraph>=0.5.1",
+    "pandas>=2.3.1",
+    "plotly>=6.2.0",
+    "pydantic>=2.11.7",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.46.1",
+]
